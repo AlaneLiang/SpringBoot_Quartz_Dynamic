@@ -1,7 +1,17 @@
 # SpringBoot_Quartz_Dynamic
 在实践中遇到动态管理定时任务的需求，场景通常是动态添加、更新、删除任务，借助Quartz，可方便实现功能。 
 以下使用Quartz结合Spring Boot方式使用
-#测试样例结果
+# 测试样例
+
+2018-11-30 22:50:33.607  INFO 3054 --- [           main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-11-30 22:50:33.608  INFO 3054 --- [           main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
 2018-11-30 22:50:33.608  INFO 3054 --- [           main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
 2018-11-30 22:50:33.608  INFO 3054 --- [           main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
 2018-11-30 22:50:33.608  INFO 3054 --- [           main] org.quartz.core.QuartzScheduler          : JobFactory set to: com.lx.quartzdynamic.bean.AutowiringSpringBeanJobFactory@5cd61783
