@@ -1,6 +1,6 @@
 # SpringBoot_Quartz_Dynamic
 在实践中遇到动态管理定时任务的需求，场景通常是动态添加、更新、删除任务，借助Quartz，可方便实现功能。 
-以下使用Quartz结合Spring Boot方式使用
+本项目使用Quartz结合Spring Boot方式使用
 # 测试样例
 
 2018-11-30 22:50:33.607  INFO 3054 --- [           main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
